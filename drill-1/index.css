@@ -1,6 +1,7 @@
 header {
     position: relative;
     height: 20vh;
+    width: 201.5vh;
     background-color: rgb(77, 77, 77);
 }
 
@@ -15,7 +16,7 @@ header {
 .right {
     height: 680px;
     width: 200px;
-    right: 0px;
+    right: -8px;
     position: absolute;
     background-color: rgb(230, 230, 230);
 }
