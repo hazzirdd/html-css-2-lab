@@ -1,15 +1,29 @@
 header {
-    width: 20px;
-    background-color: rgb(36, 36, 36);
     position: relative;
+    height: 20vh;
+    background-color: rgb(77, 77, 77);
+}
+
+.left {
+    height: 680px;
+    width: 200px;
+    left: 0px;
+    position: absolute;
+    background-color: rgb(230, 230, 230);
+}
+
+.right {
+    height: 680px;
+    width: 200px;
+    right: 0px;
+    position: absolute;
+    background-color: rgb(230, 230, 230);
 }
 
 footer {
-    background-color: rgb(24, 24, 24);
-}
-
-div {
-    background-color: rgb(155, 155, 155);
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    bottom: -600px;
+    height: 11vh;
+    background-color: rgb(31, 31, 31);
+    z-index: -1;
 }
